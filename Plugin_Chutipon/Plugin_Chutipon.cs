@@ -1,7 +1,7 @@
 using System;
 using PluginInterface;
 
-namespace Plugin2
+namespace Plugin_Chutipon
 {
 	/// <summary>
 	/// Plugin2
@@ -16,10 +16,10 @@ namespace Plugin2
 		}
 		
 		//Declarations of all our internal plugin variables
-		string myName = "Plugin2";
-		string myDescription = "Have Fun with this one! Click Away!";
-		string myAuthor = "Jon Dick";
-		string myVersion = "1.0.1";
+		string myName = "Plugin_Chutipon";
+		string myDescription = "Hello world!";
+		string myAuthor = "Chutipon Singto";
+		string myVersion = "0.0.1";
 		IPluginHost myHost = null;
 		System.Windows.Forms.UserControl myMainInterface = new ctlMain();
 		
